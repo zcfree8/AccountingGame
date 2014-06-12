@@ -144,7 +144,7 @@
     UITableViewCell *cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
                                                     reuseIdentifier:identifier] autorelease];
     
-    int row = indexPath.row;
+    int row = (int)indexPath.row;
     
     cell.textLabel.text=[self.schoolAndClass objectAtIndex:row];
     

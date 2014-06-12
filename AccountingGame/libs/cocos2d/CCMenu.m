@@ -157,7 +157,7 @@ enum {
 {
 #ifdef __CC_PLATFORM_IOS
 	CCTouchDispatcher *dispatcher = [[CCDirector sharedDirector] touchDispatcher];
-	[dispatcher setPriority:newPriority forDelegate:self];
+	[dispatcher setPriority:(int)newPriority forDelegate:self];
 
 #elif defined(__CC_PLATFORM_MAC)
 	CCEventDispatcher *dispatcher = [[CCDirector sharedDirector] eventDispatcher];

@@ -29,6 +29,7 @@
 #import <Foundation/Foundation.h>
 
 #import "ccTypes.h"
+#import "CCNode.h"
 
 enum {
 	//! Default tag
@@ -40,7 +41,7 @@ enum {
 @interface CCAction : NSObject <NSCopying>
 {
 	id			originalTarget_;
-	id			target_;
+	CCNode*			target_;
 	NSInteger	tag_;
 }
 

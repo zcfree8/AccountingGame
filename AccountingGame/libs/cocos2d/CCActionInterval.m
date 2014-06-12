@@ -1306,7 +1306,7 @@ static inline CGFloat bezierat( float a, float b, float c, float d, ccTime t )
 -(void) startWithTarget:(id)aTarget
 {
 	[super startWithTarget:aTarget];
-	CCSprite *sprite = target_;
+	CCSprite *sprite = (CCSprite *)target_;
 
 	[origFrame_ release];
 
@@ -1320,7 +1320,7 @@ static inline CGFloat bezierat( float a, float b, float c, float d, ccTime t )
 -(void) stop
 {
 	if( animation_.restoreOriginalFrame ) {
-		CCSprite *sprite = target_;
+		CCSprite *sprite =(CCSprite *) target_;
 		[sprite setDisplayFrame:origFrame_];
 	}
 

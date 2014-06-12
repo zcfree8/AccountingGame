@@ -235,7 +235,7 @@
     if(result.length!=0){
         NSArray *DataArr=[result strToArr];
         [GameUtils getCurrentUserInfo].questionArr=DataArr;
-        [[CCDirector sharedDirector]replaceScene:[QuestionPage scene]];
+        [[CCDirector sharedDirector]replaceScene:[CCTransitionFadeBL transitionWithDuration:1 scene:[QuestionPage scene]]];
     }
 }
 

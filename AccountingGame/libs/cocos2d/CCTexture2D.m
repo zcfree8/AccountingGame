@@ -325,7 +325,7 @@ static CCTexture2DPixelFormat defaultAlphaPixelFormat_ = kCCTexture2DPixelFormat
 			
 			NSUInteger neededBytes = (4 - mod ) / (bpp/8);
 
-			CCLOGWARN(@"cocos2d: WARNING converting size=(%d,%d) to size=(%d,%d) due to iOS 5.x memory BUG. See: http://www.cocos2d-iphone.org/forum/topic/31092", textureWidth, textureHeight, textureWidth + neededBytes, textureHeight );
+			CCLOGWARN(@"cocos2d: WARNING converting size=(%lu,%lu) to size=(%lu,%lu) due to iOS 5.x memory BUG. See: http://www.cocos2d-iphone.org/forum/topic/31092", textureWidth, (unsigned long)textureHeight, textureWidth + neededBytes, (unsigned long)textureHeight );
 			textureWidth = textureWidth + neededBytes;
 		}
 	}   
@@ -535,7 +535,7 @@ static CCTexture2DPixelFormat defaultAlphaPixelFormat_ = kCCTexture2DPixelFormat
 #if CC_USE_LA88_LABELS
 	NSUInteger textureSize = textureWidth*textureHeight;
 	unsigned short *la88_data = (unsigned short*)data;
-	for(int i = textureSize-1; i>=0; i--) //Convert A8 to AI88
+	for(int i =(int) textureSize-1; i>=0; i--) //Convert A8 to AI88
 		la88_data[i] = (data[i] << 8) | 0xff;
 
 #endif

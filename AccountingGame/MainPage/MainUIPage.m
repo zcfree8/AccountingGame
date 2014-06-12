@@ -197,7 +197,7 @@
 //点击进入答题界面
 -(void)itemTap:(UIButton *)sender{
     CCLOG(@"%ld",(long)sender.tag);
-    [GameUtils getCurrentUserInfo].cID=sender.tag;
+    [GameUtils getCurrentUserInfo].cID=(int)sender.tag;
   
     [self category];
     

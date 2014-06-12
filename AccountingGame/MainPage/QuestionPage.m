@@ -458,6 +458,7 @@
 
 //下一题
 -(void)nextButtonTap:(CCMenuItem *)sender{
+    [GameUtils getCurrentUserInfo].DoneNum +=1;
     [[CCDirector sharedDirector]replaceScene:[CCTransitionFadeBL transitionWithDuration:1 scene:[NotePage scene]]];
 }
 
@@ -466,7 +467,7 @@
     NSDictionary *site=[self.answerInfo objectAtIndex:0];
     NSString *Answer=[site valueForKey:@"FAnswer"];
     int Num=[Answer characterAtIndex:0]-65;
-    NSString *Number=[NSString stringWithFormat:@"%c",sender.tag-100+65];
+    NSString *Number=[NSString stringWithFormat:@"%c",(char)sender.tag-100+65];
     NSString *uid=[NSString stringWithFormat:@"%d",[GameUtils getCurrentUserInfo].u_id];
     
     if(Num==sender.tag-100){
