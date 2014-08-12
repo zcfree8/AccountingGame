@@ -185,7 +185,7 @@
 
 //设置按钮
 -(void)setButtonTap:(id)sender{
-    [[CCDirector sharedDirector]replaceScene:[CCTransitionFade transitionWithDuration:1 scene:[SettingPage scene]]];
+    //[[CCDirector sharedDirector]replaceScene:[CCTransitionFade transitionWithDuration:1 scene:[SettingPage scene]]];
 }
 
 //进入下一界面

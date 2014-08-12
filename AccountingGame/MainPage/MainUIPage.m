@@ -191,7 +191,7 @@
 //设置按钮
 -(void)setButtonTap:(id)sender{
     
-    [[CCDirector sharedDirector]replaceScene:[SettingPage scene]];
+    //[[CCDirector sharedDirector]replaceScene:[SettingPage scene]];
 }
 
 //点击进入答题界面

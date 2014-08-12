@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>51F5DA47-0B6F-4C6C-A9B2-2E0B4C3623A0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AccountingGame</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7F9F4DCFF1EE6CE13C31D3D7CC34F3C8689D98C7</key>
+		<string>https://github.com/zcfree8/AccountingGame.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AccountingGame.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7F9F4DCFF1EE6CE13C31D3D7CC34F3C8689D98C7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zcfree8/AccountingGame.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7F9F4DCFF1EE6CE13C31D3D7CC34F3C8689D98C7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7F9F4DCFF1EE6CE13C31D3D7CC34F3C8689D98C7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AccountingGame</string>
+		</dict>
+	</array>
+</dict>
+</plist>

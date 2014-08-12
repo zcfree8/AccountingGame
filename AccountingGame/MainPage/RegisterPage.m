@@ -18,7 +18,6 @@
     RegisterPage *layer=[RegisterPage node];
     
     [scene addChild:layer];
-    
     return scene;
 }
 

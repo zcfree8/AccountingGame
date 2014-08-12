@@ -211,6 +211,13 @@
 		D66CEB7A193DCE4A00F6B15F /* UserUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CEB71193DCE4A00F6B15F /* UserUtils.m */; };
 		D66CEB80193DCE4D00F6B15F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CEB7D193DCE4D00F6B15F /* AppDelegate.m */; };
 		D66CEB81193DCE4D00F6B15F /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D66CEB7F193DCE4D00F6B15F /* IntroLayer.m */; };
+		D6AC98BD19643B8800210058 /* button.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D6AC98BC19643B8800210058 /* button.mp3 */; };
+		D6AC98C419643D0400210058 /* logo120.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AC98BE19643D0400210058 /* logo120.png */; };
+		D6AC98C519643D0400210058 /* logo58.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AC98BF19643D0400210058 /* logo58.png */; };
+		D6AC98C619643D0400210058 /* logo29.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AC98C019643D0400210058 /* logo29.png */; };
+		D6AC98C719643D0400210058 /* logo80.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AC98C119643D0400210058 /* logo80.png */; };
+		D6AC98C819643D0400210058 /* logo114.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AC98C219643D0400210058 /* logo114.png */; };
+		D6AC98C919643D0400210058 /* logo57.png in Resources */ = {isa = PBXBuildFile; fileRef = D6AC98C319643D0400210058 /* logo57.png */; };
 		D6E3470F193E075100DE961D /* NSString+Array.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E3470E193E075100DE961D /* NSString+Array.m */; };
 		D6EE196C1918E2FC009C9E5A /* NetWebServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EE196B1918E2FC009C9E5A /* NetWebServiceRequest.m */; };
 		D6EE196F1918E341009C9E5A /* SoapXmlParseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6EE196E1918E341009C9E5A /* SoapXmlParseHelper.m */; };
@@ -591,6 +598,13 @@
 		D66CEB7E193DCE4D00F6B15F /* IntroLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		D66CEB7F193DCE4D00F6B15F /* IntroLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		D66CEB82193DD03400F6B15F /* QuestionPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionPage.h; sourceTree = "<group>"; };
+		D6AC98BC19643B8800210058 /* button.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button.mp3; sourceTree = "<group>"; };
+		D6AC98BE19643D0400210058 /* logo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo120.png; sourceTree = "<group>"; };
+		D6AC98BF19643D0400210058 /* logo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo58.png; sourceTree = "<group>"; };
+		D6AC98C019643D0400210058 /* logo29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo29.png; sourceTree = "<group>"; };
+		D6AC98C119643D0400210058 /* logo80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo80.png; sourceTree = "<group>"; };
+		D6AC98C219643D0400210058 /* logo114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo114.png; sourceTree = "<group>"; };
+		D6AC98C319643D0400210058 /* logo57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo57.png; sourceTree = "<group>"; };
 		D6E3470D193E075100DE961D /* NSString+Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Array.h"; sourceTree = "<group>"; };
 		D6E3470E193E075100DE961D /* NSString+Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Array.m"; sourceTree = "<group>"; };
 		D6EE196A1918E2FC009C9E5A /* NetWebServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWebServiceRequest.h; sourceTree = "<group>"; };
@@ -1110,6 +1124,12 @@
 		D66CEAE3193DCE3700F6B15F /* Picture */ = {
 			isa = PBXGroup;
 			children = (
+				D6AC98BE19643D0400210058 /* logo120.png */,
+				D6AC98BF19643D0400210058 /* logo58.png */,
+				D6AC98C019643D0400210058 /* logo29.png */,
+				D6AC98C119643D0400210058 /* logo80.png */,
+				D6AC98C219643D0400210058 /* logo114.png */,
+				D6AC98C319643D0400210058 /* logo57.png */,
 				D66CEAE4193DCE3700F6B15F /* back button.png */,
 				D66CEAE5193DCE3700F6B15F /* back button_glow.png */,
 				D66CEAE6193DCE3700F6B15F /* bar.png */,
@@ -1228,6 +1248,7 @@
 				D66CEB7D193DCE4D00F6B15F /* AppDelegate.m */,
 				D66CEB7E193DCE4D00F6B15F /* IntroLayer.h */,
 				D66CEB7F193DCE4D00F6B15F /* IntroLayer.m */,
+				D6AC98BC19643B8800210058 /* button.mp3 */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -1259,6 +1280,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					79012B4F17DD4576006F579E = {
+						DevelopmentTeam = H26EMZD9JL;
+					};
+				};
 			};
 			buildConfigurationList = 79012B4B17DD4576006F579E /* Build configuration list for PBXProject "AccountingGame" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1283,12 +1309,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				79012B6A17DD4576006F579E /* Default-Landscape~ipad.png in Resources */,
+				D6AC98C819643D0400210058 /* logo114.png in Resources */,
 				D66CEB10193DCE3700F6B15F /* back button.png in Resources */,
 				D66CEB38193DCE3700F6B15F /* tick.png in Resources */,
 				D66CEB39193DCE3700F6B15F /* tick_box.png in Resources */,
 				D66CEB1D193DCE3700F6B15F /* boy icon.png in Resources */,
 				D66CEB3A193DCE3700F6B15F /* white.png in Resources */,
 				D66CEB24193DCE3700F6B15F /* next button.png in Resources */,
+				D6AC98C919643D0400210058 /* logo57.png in Resources */,
 				D66CEB14193DCE3700F6B15F /* bg.png in Resources */,
 				D66CEB2D193DCE3700F6B15F /* no 4_glow.png in Resources */,
 				79012B6C17DD4576006F579E /* fps_images.png in Resources */,
@@ -1298,16 +1326,19 @@
 				79012B6E17DD4576006F579E /* fps_images-hd.png in Resources */,
 				D66CEB34193DCE3700F6B15F /* settings button_glow.png in Resources */,
 				79012B7017DD4576006F579E /* fps_images-ipadhd.png in Resources */,
+				D6AC98BD19643B8800210058 /* button.mp3 in Resources */,
 				D66CEB1E193DCE3700F6B15F /* create_account_nor.png in Resources */,
 				D66CEB1C193DCE3700F6B15F /* bkgrd3ss.png in Resources */,
 				D66CEB2A193DCE3700F6B15F /* no 3.png in Resources */,
 				D66CEB37193DCE3700F6B15F /* tap to review flag.png in Resources */,
 				79012B7217DD4576006F579E /* Icon-72.png in Resources */,
+				D6AC98C719643D0400210058 /* logo80.png in Resources */,
 				D66CEB29193DCE3700F6B15F /* no 2_glow.png in Resources */,
 				D66CEB28193DCE3700F6B15F /* no 2.png in Resources */,
 				D66CEB18193DCE3700F6B15F /* bkgrd2s.png in Resources */,
 				D66CEB25193DCE3700F6B15F /* next button_glow.png in Resources */,
 				D66CEB1F193DCE3700F6B15F /* create_account_pressed.png in Resources */,
+				D6AC98C619643D0400210058 /* logo29.png in Resources */,
 				D66CEB13193DCE3700F6B15F /* bar_glow.png in Resources */,
 				D66CEB21193DCE3700F6B15F /* Default@2x.png in Resources */,
 				D66CEB2C193DCE3700F6B15F /* no 4.png in Resources */,
@@ -1328,6 +1359,7 @@
 				79012B7817DD4576006F579E /* Icon-Small@2x.png in Resources */,
 				D66CEB22193DCE3700F6B15F /* girl icon.png in Resources */,
 				79012B7A17DD4576006F579E /* Icon.png in Resources */,
+				D6AC98C519643D0400210058 /* logo58.png in Resources */,
 				79012B7C17DD4576006F579E /* Icon@2x.png in Resources */,
 				D66CEB2F193DCE3700F6B15F /* play button_glow.png in Resources */,
 				D66CEB3B193DCE3700F6B15F /* whites.png in Resources */,
@@ -1338,6 +1370,7 @@
 				D66CEB17193DCE3700F6B15F /* bkgrd2.png in Resources */,
 				D66CEB5E193DCE4300F6B15F /* registerViewController.xib in Resources */,
 				79012CBD17DD4578006F579E /* ChangeLog in Resources */,
+				D6AC98C419643D0400210058 /* logo120.png in Resources */,
 				D66CEB35193DCE3700F6B15F /* sign_commit_nor.png in Resources */,
 				79012CEF17DD4823006F579E /* Default-568h@2x.png in Resources */,
 				D66CEB12193DCE3700F6B15F /* bar.png in Resources */,
@@ -1559,8 +1592,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Victor Chen (2ES4UW9692)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Victor Chen (2ES4UW9692)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: GANG JIAN REN (47LGQ9YS74)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: GANG JIAN REN (47LGQ9YS74)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1576,8 +1609,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "F46CFDBD-C80C-446D-9C51-EB8BFCA572C2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F46CFDBD-C80C-446D-9C51-EB8BFCA572C2";
+				PROVISIONING_PROFILE = "A0EB14D6-88AC-488C-A5F0-E776BAE6465F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A0EB14D6-88AC-488C-A5F0-E776BAE6465F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1586,8 +1619,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Victor Chen (2ES4UW9692)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Victor Chen (2ES4UW9692)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: GANG JIAN REN (47LGQ9YS74)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: GANG JIAN REN (47LGQ9YS74)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = AccountingGame/Prefix.pch;
@@ -1602,8 +1635,8 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "F46CFDBD-C80C-446D-9C51-EB8BFCA572C2";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F46CFDBD-C80C-446D-9C51-EB8BFCA572C2";
+				PROVISIONING_PROFILE = "A0EB14D6-88AC-488C-A5F0-E776BAE6465F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A0EB14D6-88AC-488C-A5F0-E776BAE6465F";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
