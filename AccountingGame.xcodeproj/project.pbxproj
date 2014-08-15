@@ -144,6 +144,7 @@
 		79E7B56617E019360089E1D6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E7B56517E019360089E1D6 /* SystemConfiguration.framework */; };
 		79E7B56817E019570089E1D6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79E7B56717E019570089E1D6 /* MobileCoreServices.framework */; };
 		79FE61ED17DEC3AD009AE69D /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 79FE61EC17DEC3AD009AE69D /* libxml2.dylib */; };
+		D61BC4B5199D9BD0002F041C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D61BC4B4199D9BD0002F041C /* Settings.bundle */; };
 		D66CEB10193DCE3700F6B15F /* back button.png in Resources */ = {isa = PBXBuildFile; fileRef = D66CEAE4193DCE3700F6B15F /* back button.png */; };
 		D66CEB11193DCE3700F6B15F /* back button_glow.png in Resources */ = {isa = PBXBuildFile; fileRef = D66CEAE5193DCE3700F6B15F /* back button_glow.png */; };
 		D66CEB12193DCE3700F6B15F /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = D66CEAE6193DCE3700F6B15F /* bar.png */; };
@@ -510,6 +511,7 @@
 		79E7B56517E019360089E1D6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		79E7B56717E019570089E1D6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		79FE61EC17DEC3AD009AE69D /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D61BC4B4199D9BD0002F041C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D66CEAE4193DCE3700F6B15F /* back button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back button.png"; sourceTree = "<group>"; };
 		D66CEAE5193DCE3700F6B15F /* back button_glow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back button_glow.png"; sourceTree = "<group>"; };
 		D66CEAE6193DCE3700F6B15F /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
@@ -1249,6 +1251,7 @@
 				D66CEB7E193DCE4D00F6B15F /* IntroLayer.h */,
 				D66CEB7F193DCE4D00F6B15F /* IntroLayer.m */,
 				D6AC98BC19643B8800210058 /* button.mp3 */,
+				D61BC4B4199D9BD0002F041C /* Settings.bundle */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -1365,6 +1368,7 @@
 				D66CEB3B193DCE3700F6B15F /* whites.png in Resources */,
 				D66CEB26193DCE3700F6B15F /* no 1.png in Resources */,
 				D66CEB15193DCE3700F6B15F /* bkgrd1.png in Resources */,
+				D61BC4B5199D9BD0002F041C /* Settings.bundle in Resources */,
 				79012B7F17DD4576006F579E /* iTunesArtwork in Resources */,
 				D66CEB32193DCE3700F6B15F /* regist_terms.png in Resources */,
 				D66CEB17193DCE3700F6B15F /* bkgrd2.png in Resources */,

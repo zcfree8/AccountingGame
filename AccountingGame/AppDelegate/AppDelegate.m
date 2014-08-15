@@ -94,6 +94,9 @@
 	[window_ makeKeyAndVisible];
 	
     [[SimpleAudioEngine sharedEngine] playBackgroundMusic:@"TeaRoots.mp3" loop:YES];
+    
+    NSLog(@"%@",URLIP);
+    
 	return YES;
         
 }
